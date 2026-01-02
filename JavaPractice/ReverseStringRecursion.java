@@ -1,3 +1,5 @@
+package JavaPractice;
+
 public class ReverseStringRecursion {
 
     static String reverse(String str) {

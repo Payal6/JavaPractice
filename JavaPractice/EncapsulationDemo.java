@@ -1,3 +1,5 @@
+package JavaPractice;
+
 class Reactangle{
     private int length;
     private int width;

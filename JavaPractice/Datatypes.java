@@ -1,4 +1,6 @@
-import java.lang.*;
+package JavaPractice;
+
+
 
 class Datatypes
 {
