@@ -61,14 +61,14 @@ class Vehicle{
 }
 
 class Bike extends Vehicle{
-    void ride(){
-        System.out.println("Bike is riding");
+    void wheels(){
+        System.out.println("Bike 2 wheels");
     }
 }
 
 class Car extends Vehicle{
-    void drive(){
-        System.out.println("Car is driving");
+    void wheels(){
+        System.out.println("Car 4 wheels");
     }
 }
 
@@ -77,11 +77,11 @@ public class InheritanceEx {
     public static void main(String[] args) {
         Bike b = new Bike();
         b.start();
-        b.ride();
+        b.wheels();
 
         Car c = new Car();
         c.start();
-        c.drive();
+        c.wheels();
     }
      
 }
